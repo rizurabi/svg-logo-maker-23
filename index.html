@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SVG Generator</h1>
+        <form id="svgForm">
+            <label for="text">Enter Text (up to 3 characters):</label>
+            <input type="text" id="text" maxlength="3" required>
+            
+            <label for="textColor">Text Color:</label>
+            <input type="text" id="textColor" required>
+            
+            <label for="shape">Choose a Shape:</label>
+            <select id="shape">
+                <option value="circle">Circle</option>
+                <option value="triangle">Triangle</option>
+                <option value="square">Square</option>
+            </select>
+            
+            <label for="shapeColor">Shape Color:</label>
+            <input type="text" id="shapeColor" required>
+            
+            <button type="submit">Generate SVG</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
